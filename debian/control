@@ -1,0 +1,15 @@
+Source: semplice-artwork-wallpapers-jethro
+Section: misc
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://semplice-linux.org
+Vcs-Git: https://github.com/semplice/artwork-wallpapers-jethro.git
+Vcs-Browser: https://github.com/semplice/artwork-wallpapers-jethro
+
+Package: semplice-artwork-wallpapers-jethro
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Wallpaper pack for Semplice for Workstations 2015 "Jethro Tull"
+ This package contains the "semplice-jethro" wallpaper pack.
